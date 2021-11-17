@@ -53,44 +53,65 @@
     </div>
   </div>
 
-<nav class="navbar navbar-expand-sm top navbar-inverse sticky-top">
-  <div class="container star">
-    <img class="navbar-brand logo" src="assets/img/logo.png" href="#"></a>
-    <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarSupportedContent" aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation">
-      <span class="navbar-toggler-icon"></span>
-    </button>
-    <div class="collapse navbar-collapse" id="navbarSupportedContent">
-      <ul class="navbar-nav me-auto mb-2 mb-lg-0 topnav">
-        <li class="nav-item">
-          <a class="nav-link active" aria-current="page" href="index.html">Home</a>
-        </li>
-        <li class="nav-item">
-          <a class="nav-link" href="index.html#hnd">HND Questions</a>
-        </li>
-        <li class="nav-item">
-          <a class="nav-link" href="index.html#hnd">Corrected Papers</a>
-        </li>
-        <li class="nav-item">
-          <a class="nav-link" href="index.html#hnd">Courses</a>
-        </li>
-        <li class="nav-item">
-          <a class="nav-link" href="index.html#hnd">Tutorials</a>
-        </li>
-        <li class="nav-item">
-          <a class="nav-link" data-toggle="tooltip" title="SignUp to one of our Subscription plans and gain unlimited downloads" href="pricing.html">Get A Subscription!!</a>
-        </li> 
-      </ul>
-      <ul class="nav navbar-nav navbar-right ">
-	       <li class="nav-item">
-          <a class="btn btn-primary" data-bs-toggle="offcanvas" role="button" aria-controls="sidebar" href="#sidebar">Account</a>
-        </li>
-        <li class="nav-item">
-          <a class="btn btn-primary" href="">Logout</a>
-        </li> 
-      </ul>
+  <nav class="navbar navbar-expand-sm top navbar-inverse sticky-top">
+    <div class="container star">
+      <img class="navbar-brand logo" src="assets/img/logo.png" href="#"></a>
+      <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarSupportedContent" aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation">
+        <span class="navbar-toggler-icon"></span>
+      </button>
+      <div class="collapse navbar-collapse" id="navbarSupportedContent">
+        <ul class="navbar-nav me-auto mb-2 mb-lg-0 topnav">
+          <li class="nav-item">
+            <a class="nav-link active" aria-current="page" href="home.html">Home</a>
+          </li>
+          <li class="nav-item">
+            <a class="nav-link" href="home.html#hnd">HND Questions</a>
+          </li>
+          <li class="nav-item">
+            <a class="nav-link" href="home.html#hnd">Corrected Papers</a>
+          </li>
+          <li class="nav-item">
+            <a class="nav-link" href="home.html#hnd">Courses</a>
+          </li>
+          <li class="nav-item">
+            <a class="nav-link" href="home.html#hnd">Tutorials</a>
+          </li>
+          <li class="nav-item">
+            <a class="nav-link" data-toggle="tooltip" title="SignUp to one of our Subscription plans and gain unlimited downloads" href="pricing.html">Get A Subscription!!</a>
+          </li> 
+        </ul>
+        <ul class="nav navbar-nav navbar-right ">
+           <li class="nav-item">
+            <a class="btn btn-primary" data-bs-toggle="offcanvas" role="button" aria-controls="sidebar" href="#sidebar">Account</a>
+          </li>
+          <li class="nav-item">
+            <a class="btn btn-primary" href="">Logout</a>
+          </li> 
+        </ul>
+      </div>
     </div>
+  </nav>
+
+  <!-- offcanvas -->
+<div class="offcanvas offcanvas-start top-account" tabindex="-1" id="sidebar" aria-labelledby="sidebar-label">
+  <div class="offcanvas-header">
+      <h5 class="ofcanvas-title" id="sidebar-label">Account Settings</h5>
+      <button type="button" class="btn-close" data-bs-dismiss="offcanvas"></button>
   </div>
-</nav>
+  <div class="offcanvas-body account">
+      <center>
+          <i class="fas fa-user"></i>
+      </center>
+      <h5>Mabu Caleb</h5>
+      <ul>
+          <a href="profile.html"><li>Account</li></a>
+          <a href="info.html"><li>info</li></a>
+          <a href="settings.html"><li>Settings</li></a>
+          <a href=""><li>Logout</li></a>
+      </ul>
+  </div>
+</div>
+  
 
 
 <!-- ############### student dashboard ############## -->
